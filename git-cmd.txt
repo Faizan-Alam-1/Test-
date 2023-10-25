@@ -13,4 +13,9 @@ git checkout "give the name of branch which you wanted to  switch"
 
 git remote -v 
 git push origin main
-git fetch 
+git fetch
+git remote set-url --push origin https://YOUR_TOKEN@github.com/GITHUB_USER_NAME/REPO_NAME
+git remote set-url --add origin https://YOUR_TOKEN@github.com/GITHUB_USER_NAME/REPO_NAME
+git remote set-url --delete origin https://YOUR_TOKEN@github.com/GITHUB_USER_NAME/REPO_NAME
+
+ 
