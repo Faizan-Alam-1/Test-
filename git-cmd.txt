@@ -1,0 +1,10 @@
+# local cmd for vcs 
+git init 
+git status
+git log 
+git commit -m "add your massage"
+git config --global user.email "enter your email"  
+git config --global  user.name "Enter your github  username"
+git branch 
+git checkout - b "give name of new branch"
+git checkout "give the name of branch which you wanted to  switch"  
