@@ -12,4 +12,5 @@ git checkout "give the name of branch which you wanted to  switch"
 # remote cmd / github
 
 git remote -v 
-git push origin main 
+git push origin main
+git fetch 
