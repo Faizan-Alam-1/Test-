@@ -8,3 +8,8 @@ git config --global  user.name "Enter your github  username"
 git branch 
 git checkout - b "give name of new branch"
 git checkout "give the name of branch which you wanted to  switch"  
+
+# remote cmd / github
+
+git remote -v 
+git push origin main 
